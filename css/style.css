@@ -1,0 +1,129 @@
+body {
+	font-family: "Tahoma";
+	font-size: 11px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px 10px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*----top----logo------slogan-----*/
+
+.top{
+	margin: 20px 0 15px;
+}
+
+.top .logo{
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	font-weight: bolder; 
+	font-size: 24px;
+	color: #f5929a;
+}
+
+.top .logo span {
+	display: block;
+	color: #99c3d2;
+}
+
+.top .slogan {
+	width: 600px;
+	color: #9b9fa0;
+
+}
+
+
+/*-------menu---------------*/
+
+.header{
+	height: 37px;
+	background: #ee6f8f;
+	background: linear-gradient(to top, #ea617d, #f1789a);
+	border-top: 1px solid #f9c9d7;;
+	border-bottom: 1px solid #f9c9d7;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.header nav ul{
+}
+
+.header nav li{
+
+	float: left;
+}
+
+.header nav span {
+	padding: 0 15px;
+	display: block;
+	border-right: 1px solid #dc466c;
+}
+
+.header nav a{
+	padding-top: 12px;
+	height: 37px;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+/*---------aside---------------*/
+
+.aside {
+	width: 200px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.aside .title-r {
+	font-family: Helvetica;
+	color: #9b6a80;
+	font-size: 12px;
+}
+
+.aside li {
+
+	margin-top: 5px;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.aside li:first-child {
+	margin-top: 15px;
+}
+
+.aside li a {
+	padding: 5px;
+	display: block;
+	color: #77b0c4;
+	text-decoration: underline;
+}
+
+.aside li:hover {
+
+}
+
+.aside li a:hover {
+	padding: 5px;
+	background: #dc597b;
+	background: linear-gradient(to top, #e14470, #f9c8c7);
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
