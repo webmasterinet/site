@@ -1,6 +1,7 @@
 body {
 	font-family: "Tahoma";
 	font-size: 11px;
+	color: #9b9fa0;
 }
 
 .container {
@@ -82,16 +83,20 @@ body {
 
 /*---------aside---------------*/
 
-.aside {
+.left-col, .right-col {
 	width: 200px;
-	text-transform: uppercase;
-	font-weight: bold;
 }
 
-.aside .title-r {
+.aside {
+	padding-left: 15px;
+}
+
+.title-r {
 	font-family: Helvetica;
 	color: #9b6a80;
 	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .aside li {
@@ -99,6 +104,8 @@ body {
 	margin-top: 5px;
 	font-family: Tahoma;
 	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .aside li:first-child {
@@ -124,6 +131,35 @@ body {
 	color: #fff;
 	text-decoration: none;
 }
+
+.center-col {
+	padding: 0 10px;
+}
+
+
+.col-2 {
+	padding-right: 35px;
+	width: 260px;
+}
+
+.col-2 h2 {
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #bab8b9;
+}
+
+.article-r .article-img {
+	padding: 15px;
+}
+
+.article-r .title-art {
+	text-decoration: underline;
+}
+
+.article-r .article-text {
+	padding-top: 10px;
+}
+
+
 
 
 
